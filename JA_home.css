@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+html {
+  font-size: 2vw;
+}
+
+body{
+  font-family: "Yu Gothic Medium","遊ゴシック Medium","YuGothic","遊ゴシック体","ヒラギノ角ゴ pro W3",sans-serif;
+  line-height: 1.7;
+  background-image: url(home_image/);
+}
+.header {
+  font-size: 100%;
+  background-color: navy;
+  justify-content: space-between;
+  display: flex;
+}
+.上の文字 {
+  color: white;
+}
+.言語変換 {
+  justify-content: flex-end;
+  position: absolute; top:0px; right:0%;
+}
+.言語 {
+  padding: 0px 15px;
+  display: block;
+  font-size: 100%;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  display: flex;
+
+
+}
+.言語:hover {
+  background-color: red;
+
+}
+.言語切り替え {
+  display: block;
+  background-color: lightgreen;
+}
+.言語別 {
+  font-size: 90%;
+  width: 100%;
+  border-color: blue;
+  border-width: 1px;
+  display: none;
+  text-align: center;
+  border-style: solid;
+}
+.言語別:hover {
+  background-color: red;
+  font-size: 100%;
+  color: lightgreen;
+}
+.言語切り替え:hover .言語別 {
+  display: block;
+}
+.タイトル部分 {
+  text-align: center;
+}
+.タイトル {
+  text-align: center;
+  font-size: 250%;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.サイト説明 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.気分 {
+  text-align: center;
+  color: lightblue;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.まとめてるゲーム {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  height: auto;
+  border-color: red;
+  border-style: dotted;
+  border-width: 1px;
+}
+.wows {
+  text-align: center;
+}
+.wows画像 {
+  width: 65%;
+  height: 100%;
+}
+.wowstext {
+  color: blue;
+}
+.wowsl {
+  display: flex;
+  background-color: red;
+  text-align: left;
+  padding: 1px;
+  position: relative;
+
+}
+.wowsl画像 {
+  width: 65%;
+  height: 100%;
+}
+.wowsltext {
+  color: lightblue;
+  background-color: green;
+  position: absolute; top:48%;
+  margin-left: 1%;
+}
+
+/*.言語変換 {
+  width: 10%;
+  text-align: center;
+  background: navy;
+  color: white;
+  padding: 0%;
+}
+.言語設定 {
+  justify-content: flex-end;
+  width: 40%;
+}
+.言語一覧 {
+  background: white;
+  display: none;
+}
+.言語メニュー {
+  width: 25%;
+  list-style: none;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+}
+.言語変換したサイトに移動 {
+  text-decoration: none;
+  color: navy;
+}
+.言語 {
+  border: 1px solid navy;
+  margin: 0%;
+  padding: 0%;
+}
+.言語変換:hover .言語一覧 {
+  display: block;
+}*/
+
+/*#言語切り替え input[type="radio"]{
+  display: none;
+}
+#言語切り替え label{
+  display    : inline-block;
+  border     : 1px solid #ccc;
+  box-shadow : 2px 2px #999;
+  padding    : 2px 6px;
+}
+/*#言語切り替え  input[type="radio"]:checked + label {
+  background : #ffa64d;
+}
+#JA:not(:checked) ~ * *:lang(ja) {
+  display    : none;
+}
+#EN:not(:checked) ~ * *:lang(en) {
+  display    : none;
+}
+#ZH:not(:checked) ~ * *:lang(zh) {
+  display    : none;
+}
+
+#JA:checked ~ label[for="langJa"] {
+  background : #ffa64d;
+}
+#EN:checked ~ label[for="langEn"] {
+  background : #ffa64d;
+}
+#ZH:checked ~ label[for="langZh"] {
+  background : #ffa64d;
+}*/

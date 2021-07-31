@@ -1,0 +1,346 @@
+@charset "UTF-8";
+
+html {
+  font-size: 2vw;
+}
+body{
+  font-family: "Yu Gothic Medium","遊ゴシック Medium","YuGothic","遊ゴシック体","ヒラギノ角ゴ pro W3",sans-serif;
+  line-height: 1.7;
+  background-image: url(./Image_storage/Water_background_wowsl.png);
+  background-size: 250%;
+  background-repeat: repeat-y;
+}
+.header {
+  font-size: 100%;
+  justify-content: flex-start;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: navy;
+}
+.Above_letter {
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 18%;
+}
+.mane {
+  background-color: navy;
+}
+.Language_setting {
+  /*==一応のDIV==*/
+}
+.Language_conversion {
+  position: fixed; top:0px; right:0%;
+}
+.language {
+  padding: 0px 15px;
+  display: block;
+  font-size: 100%;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+.language:hover {
+  color: #87CEFA;
+}
+.National_language {
+  color: #AFEEEE;
+}
+.Language_switching {
+  display: block;
+  cursor:pointer;
+}
+.By_language {
+  font-size: 80%;
+  width: 100%;
+  display: none;
+  text-align: center;
+  border-left: 1px dotted #6495ED;
+  border-right: 1px dotted #6495ED;
+}
+.By_language:hover {
+  background-color: #faa61a;
+  font-size: 85%;
+}
+.Language_switching:hover .By_language {
+  display: block;
+}
+.By_country {
+}
+.Display_by_country {
+  width: 100%;
+  height: 0 auto;
+  margin: 0 auto;
+  padding: 0px 10px;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+}
+.Display_by_country:hover {
+  color: #87CEFA;
+}
+.Country_page {
+  display: block;
+}
+.Nation {
+  font-size:65%;
+  width: 100%;
+  height: 0 auto;
+  display: none;
+  border-bottom: dotted 1px  #6495ED;
+  text-align: center;
+}
+.Each_nation {
+  border-left: 1px dotted #6495ED;
+  border-right: 1px dotted #6495ED;
+  position: absolute;
+}
+.Nation_letter {
+  color: #AFEEEE;
+  text-align: left;
+}
+.Nation:hover {
+  background-color: #faa61a;
+  cursor:pointer;
+  text-align: center;
+}
+.By_country:hover .Nation {
+  display: block;
+}
+.Cover_image {
+  width: 100%;
+  height: 0 auto;
+  padding: 0 auto;
+  background-position: center;
+  background-size: 100%;
+  background-image: url(./Image_storage/japanese_Destroyer.png);
+}
+.Country_name {
+  color: white;
+  text-shadow: 2px 2px 0px rgba(255, 0, 0, 0.5);
+}
+.Country_introduction {
+  text-align: center;
+  width: 80%;
+  height: 0 auto;
+  margin: 0 auto;
+}
+.Country_image {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+.japanese_navy {
+  text-align: left;
+  width: 25%;
+  height: 25%;
+  padding: 5px;
+  pointer-events: none;
+}
+.Country_description {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  height: 0 auto;
+  margin: 0 auto;
+  color: #00FFFF;
+}
+.Normal_ship {
+  /*==一一応のDIV==*/
+}
+.tree_ships {
+  width: 80%;
+  margin: 0 auto;
+}
+.Ship_tree {
+  text-align: center;
+  width: 80%;
+  height: 0 auto;
+  margin: 0 auto;
+}
+.Ship{
+  text-align: center;
+  width: 100%;
+  height: 0 auto;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.Tier {
+  color: lightgreen;
+  pointer-events: none;
+}
+.japanese_tree_image {
+  width: 100%;
+  height: 0 auto;
+  margin: 0 auto;
+  padding: 0 auto;
+  pointer-events: none;
+}
+.ship_class {
+  width: 20%;
+  height: 0 auto;
+  background-color: #696969;
+  color: white;
+  pointer-events: none;
+}
+.Balance_adjustment {
+  width: 100%;
+  height: 0 auto;
+  opacity: 0;
+  pointer-events: none;
+}
+.Arrow {
+  color: yellow;
+  pointer-events: none;
+}
+.Ship_backgraund {
+  background-color: #0000bc;
+  cursor: pointer;
+}
+.ships_class {
+  width: 15%;
+  height: 0 auto;
+  margin: 0 auto;
+  pointer-events: none;
+}
+.ship_letter{
+  color: lightblue;
+  display: block;
+  text-decoration: none;
+}
+
+.Japanese_PR_ship {
+  /*===一応タグ付け===*/
+}
+.Premium_Ship_Summary {
+  text-align: center;
+  width: 80%;
+  height: 0 auto;
+  margin: 0 auto;
+  background-color: rgba(226, 255, 0, 0.2);
+}
+.PR_ships {
+  width: 20%;
+  height: 0 auto;
+}
+.PR_Ship{
+  text-align: center;
+  width: 100%;
+  height: 0 auto;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.PR_japan_ship {
+  pointer-events: none;
+  text-align: center;
+  width: 100%;
+  height: 0 auto;
+}
+.PR_Ship_backgraund {
+  background-color: #ffe556;
+  vertical-align: top;
+}
+.PR_ship_letter{
+  color: red;
+  display: block;
+  text-decoration: none;
+}
+.PR_ship_letter_B {
+  font-size: 56%;
+  color: red;
+  display: block;
+  text-decoration: none;
+}
+.Captain_explanation {
+  width: 75%;
+  background-color: white;
+  text-align: center;
+  height: 0 auto;
+  margin: 0 auto;
+}
+.What_is_a_captain {
+  font-size: 120%;
+  border-bottom: 1px solid red;
+  padding-bottom: 0px;
+  display: inline-block;
+}
+.Captain_explanation_Contents {
+  display: flex;
+  justify-content: center;
+}
+.Captain {
+  width: 80%;
+  height: 0 auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.Japanese_Captain {
+  width: 100%;
+  height: 0 auto;
+  margin: 0 auto;
+  pointer-events: none;
+}
+.commander_setting {
+  display: flex;
+  justify-content: center;
+}
+.commander_skill {
+  text-align: right;
+  width: 100%;
+  height: 0 auto;
+  padding: 0 auto;
+}
+.commander_Image {
+  width: 150%;
+  height: 0 auto;
+  padding: 0 auto;
+  margin: 0 auto;
+  pointer-events: none;
+}
+.skill {
+  width: 100%;
+  pointer-events: none;
+}
+.skill_text_title {
+  font-size: 75%;
+  text-align: center;
+  color: #00ff9a;
+  text-decoration: none;
+  width: 100%;
+  height: 0 auto;
+  padding: 0 auto;
+}
+.skill_text {
+  width: 80%;
+  font-size: 75%;
+  height: 0 auto;
+  padding: 0 auto;
+}
+.Captain-background {
+  background-color: rgba(205, 215, 221, 0.3);
+}
+.commander {
+  display: block;
+  text-decoration: none;
+}
+/*-----スキル-----*/
+.baff_skill {
+  color: #19b4ff;
+}
+.nafe_skill {
+  color: #ff9f77;
+}
+.Engine_booster_reload {
+display: none;
+}
+.Engine_booster_reload_skill:hover .Engine_booster_reload {
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 25%;
+}

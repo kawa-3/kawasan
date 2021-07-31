@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+html {
+  font-size: 2vw;
+}
+body{
+  font-family: "Yu Gothic Medium","遊ゴシック Medium","YuGothic","遊ゴシック体","ヒラギノ角ゴ pro W3",sans-serif;
+  line-height: 1.7;
+  background-image: url(Image_storage/WoWSL_Wallpapers_German_Fleet.png);
+  background-size: 400%;
+}
+.header {
+  font-size: 100%;
+  background-color: navy;
+  justify-content: flex-start;
+  display: flex;
+}
+.Above_letter {
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Language_setting {
+  /*==一応のDIV==*/
+}
+.Language_conversion {
+  position: absolute; top:0px; right:0%;
+}
+.language {
+  padding: 0px 15px;
+  font-size: 100%;
+  background-color: blue;
+  color: white;
+  justify-content: center;
+  display: flex;
+}
+.language:hover {
+  color: #87CEFA;
+}
+.National_language {
+  color: #AFEEEE;
+}
+.Language_switching {
+  display: block;
+  cursor:pointer;
+}
+.By_language {
+  font-size: 80%;
+  width: 100%;
+  display: none;
+  text-align: center;
+  border-left: 1px dotted #6495ED;
+  border-right: 1px dotted #6495ED;
+}
+.By_language:hover {
+  background-color: #faa61a;
+  font-size: 85%;
+}
+
+.Language_switching:hover .By_language {
+  display: block;
+}
+
+
+.Right_side {
+  position: absolute; right:0%;
+  width: 12.5%;
+  height: 0 auto;
+  position: absolute; right:0%; top:15.35vw;
+  /*border-color: red;
+  border-style: solid;
+  border-width: 1px;*/
+}
+.By_country {
+  background-color: #faa61a;
+  text-align: center;
+}
+.By_country_ship {
+  text-align: center;
+  font-size: 100%;
+  width: 90%;
+  height: 0 auto;
+  margin: 0 auto;
+  background-color: #fecf8d;
+  cursor: default;
+  color: #FF8C00;
+}
+.America {
+  text-align: center;
+  font-size: 95%;
+  width: 100%;
+  height: 0 auto;
+  margin: 1px;
+  color: white;
+}
+.America :hover {
+  background-color: #fdbf64;
+  border-bottom: white solid 1px;
+  cursor: pointer;
+}
+.Japan {
+  text-align: center;
+  font-size: 95%;
+  width: 100%;
+  height: 0 auto;
+  margin: 1px;
+  color: white;
+}
+.Japan :hover {
+  background-color: #fdbf64;
+  border-bottom: white solid 1px;
+  cursor: pointer;
+}
+.England {
+  text-align: center;
+  font-size: 95%;
+  width: 100%;
+  height: 0 auto;
+  margin: 1px;
+  color: white;
+
+}
+.England :hover {
+  background-color: #fdbf64;
+  border-bottom: white solid 1px;
+  cursor: pointer;
+}
+.Germany {
+  text-align: center;
+  font-size: 95%;
+  width: 100%;
+  height: 0 auto;
+  margin: 1px;
+  color: white;
+
+}
+.Germany :hover {
+  background-color: #fdbf64;
+  border-bottom: white solid 1px;
+  cursor: pointer;
+}
+.フランス {
+  text-align: center;
+  font-size: 95%;
+  width: 100%;
+  height: 0 auto;
+  margin: 1px;
+  color: white;
+
+}
+.フランス :hover {
+  background-color: #fdbf64;
+  border-bottom: white solid 1px;
+  cursor: pointer;
+}
+.ソ連 {
+  text-align: center;
+  font-size: 95%;
+  width: 100%;
+  height: 0 auto;
+  margin: 1px;
+  color: white;
+}
+.ソ連 :hover {
+  background-color: #fdbf64;
+  border-bottom: white solid 1px;
+  cursor: pointer;
+}
+.イタリア {
+  text-align: center;
+  font-size: 95%;
+  width: 100%;
+  height: 0 auto;
+  margin: 1px;
+  color: white;
+
+}
+.イタリア :hover {
+  background-color: #fdbf64;
+  border-bottom: white solid 1px;
+  cursor: pointer;
+}
+.説明1 {
+  width: 100%;
+  height: 0 auto;
+  background-color: white;
+  border-color: lightblue;
+  border-style: dotted;
+  border-width: 1px;
+}
+.説明2 {
+  width: 100%;
+  height: 0 auto;
+  background-color: white;
+  border-color: lightblue;
+  border-style: dotted;
+  border-width: 1px;
+}
+.ゲーム説明 {
+  width: 75%;
+  margin: 0 auto;
+  height: auto;
+}
+.ゲームに関する疑問 {
+  font-size: 80%;
+  text-align: left;
+  display: inline-block;
+  border-bottom: 1px solid red;
+  padding-bottom: 0;
+}
+.ゲーム説明内容 {
+  display: flex;
+  text-align: left;
+  font-size: 80%;
+}
+.ゲーム紹介 {
+  text-align: center;
+  font-size: 250%;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ゲームタイトル {
+  font-size: 100%;
+  color: lightblue;
+}
+.ゲームのタイトル画像 {
+  text-align: center;
+  width: 75%;
+  height: 0 auto;
+  margin: 0 auto;
+}
+.ゲーム画像 {
+  width: 100%;
+  height: 0 auto;
+  pointer-events: none;
+}
+.最新情報 {
+  text-align: center;
+  width: 75%;
+  height: 100px;
+  margin: 0 auto;
+  border-color: lightgreen;
+  border-style: dotted;
+  border-width: 1px;
+  overflow: scroll;
+  background-color: white;
+}
+.最新 {
+  font-size: 60%;
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  border-bottom: 1px dashed black;
+}
+.情報 {
+  font-size: 80%;
+}
+.艦艇 {
+  display: flex;
+  justify-content: center;
+  font-size: 120%;
+  width:75%;
+  height: 0 auto;
+  margin: 0 auto;
+  border-style: dashed;
+  border-color: red;
+  border-width: 1px;
+
+}
+.艦艇2 {
+  text-align: center;
+  cursor: pointer;
+  border-style: dashed;
+  border-color: lightblue;
+  border-width: 1px;
+}
+.艦種 {
+  width:15%;
+  height: 0 auto;
+  pointer-events: none;
+}
+.艦艇の種類 {
+  width: 100%;
+  height: 0 auto;
+  pointer-events: none;
+}
+.艦艇3 {
+  width: 25%;
+  height: 0 auto;
+  border-style: dashed;
+  border-color: lightblue;
+  border-width: 1px;
+}
+.艦艇文字 {
+  color: lightblue;
+}
+.隙間 {
+  text-align: center;
+  color: lightgreen;
+  background-color: red;
+}
