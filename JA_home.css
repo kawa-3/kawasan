@@ -9,20 +9,40 @@ body{
   line-height: 1.7;
   background-image: url(home_image/);
 }
+/*---ヘッダー---*/
 .header {
   font-size: 100%;
-  background-color: navy;
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: navy;
 }
-.上の文字 {
+.search {
   color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 18%;
+  width: 0 auto;
 }
-.言語変換 {
-  justify-content: flex-end;
+.search_image_div {
+  height: 18%;
+}
+.search_image {
+  text-align: center;
+
+}
+.mane {
+  background-color: navy;
+}
+/*---言語変換---*/
+.Language_setting {
+  /*==一応のDIV==*/
+}
+.Language_conversion {
   position: absolute; top:0px; right:0%;
 }
-.言語 {
+.language {
   padding: 0px 15px;
   display: block;
   font-size: 100%;
@@ -30,38 +50,38 @@ body{
   color: white;
   justify-content: center;
   display: flex;
-
-
 }
-.言語:hover {
-  background-color: red;
-
+.language:hover {
+  color: #87CEFA;
 }
-.言語切り替え {
+.National_language {
+  color: #AFEEEE;
+}
+.Language_switching {
   display: block;
-  background-color: lightgreen;
+  cursor:pointer;
 }
-.言語別 {
-  font-size: 90%;
+.By_language {
+  font-size: 80%;
   width: 100%;
-  border-color: blue;
-  border-width: 1px;
   display: none;
   text-align: center;
-  border-style: solid;
+  border-left: 1px dotted #6495ED;
+  border-right: 1px dotted #6495ED;
 }
-.言語別:hover {
-  background-color: red;
-  font-size: 100%;
-  color: lightgreen;
+.By_language:hover {
+  background-color: #faa61a;
+  font-size: 85%;
 }
-.言語切り替え:hover .言語別 {
+.Language_switching:hover .By_language {
   display: block;
 }
-.タイトル部分 {
+
+/*---タイトル---*/
+.title_Part {
   text-align: center;
 }
-.タイトル {
+.title {
   text-align: center;
   font-size: 250%;
   margin-top: 1px;
@@ -69,15 +89,16 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-.サイト説明 {
+.Site_description {
   text-align: center;
   text-decoration: underline;
   margin-top: 1px;
   margin-bottom: 1px;
   margin-left: auto;
   margin-right: auto;
+  text-decoration: none;
 }
-.気分 {
+.Mood {
   text-align: center;
   color: lightblue;
   margin-top: 1px;
@@ -85,7 +106,9 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-.まとめてるゲーム {
+
+/*---ゲーム---*/
+.Games {
   text-align: center;
   width: 75%;
   margin: 0 auto;
@@ -97,7 +120,7 @@ body{
 .wows {
   text-align: center;
 }
-.wows画像 {
+.wows_image {
   width: 65%;
   height: 100%;
 }
@@ -106,13 +129,12 @@ body{
 }
 .wowsl {
   display: flex;
-  background-color: red;
+  background-color: rgba(73,221,255,0.3);
   text-align: left;
   padding: 1px;
   position: relative;
-
 }
-.wowsl画像 {
+.wowsl_image {
   width: 65%;
   height: 100%;
 }
